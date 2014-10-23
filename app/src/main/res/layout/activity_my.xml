@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:text="button"
+        android:text="buttonchk"
         />
     <TextView
         android:layout_width="match_parent"
@@ -20,21 +20,5 @@
         android:visibility="invisible"
         android:id="@+id/textView1"
         />
-
-    <fragment
-        android:name="com.example.myapplication.Fragment1"
-        android:id="@+id/fragment_fragment1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-    />
-
-    <fragment
-        android:name="com.example.myapplication.Fragment2"
-        android:id="@+id/fragment_fragment2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-    />
 
 </LinearLayout>
